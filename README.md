@@ -1,5 +1,8 @@
 # MacOS-Icinga-Build-Setup
 
+## ⚠️ Disclaimer ⚠️
+This is my personal build setup and will need some changes to work for others.
+
 ### 1) Install dependencies
 
 ```sh
