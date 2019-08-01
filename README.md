@@ -3,7 +3,7 @@
 ### 1) Install dependencies
 
 ```sh
-brew install ccache boost cmake bison flex yajl openssl@1.1 mysql-connector-c++
+brew install ccache boost cmake bison flex openssl@1.1 mysql-connector-c++
 brew install monitoring-plugins
 brew install mariadb
 brew install redis
