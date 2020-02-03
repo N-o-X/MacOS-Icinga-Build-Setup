@@ -33,7 +33,8 @@ cmake .. -DICINGA2_USER=noah \
          -DCMAKE_INSTALL_PREFIX=/Users/noah/i2/ \
          -DOPENSSL_CRYPTO_LIBRARY=/usr/local/opt/openssl/lib/libcrypto.dylib \
          -DOPENSSL_INCLUDE_DIR=/usr/local/opt/openssl/include \
-         -DOPENSSL_SSL_LIBRARY=/usr/local/opt/openssl/lib/libssl.dylib
+         -DOPENSSL_SSL_LIBRARY=/usr/local/opt/openssl/lib/libssl.dylib \
+         -DBoost_NO_BOOST_CMAKE=ON
 ```
 
 ### 4) Build and install Icinga
